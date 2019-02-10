@@ -9,7 +9,7 @@ body {
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background-image: linear-gradient(to bottom right, blue, orange);
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -27,7 +27,7 @@ img {
   max-width: 100%;
   height: auto;
   padding: 5px;
- 
+
 }
 
 /* Clear floats after the columns */

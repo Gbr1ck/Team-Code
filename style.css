@@ -5,14 +5,16 @@
 
 body {
   font-family: 'Abel';font-size: 22px;
+text-align: center;
+background-image: linear-gradient(to bottom right, blue, orange);
 }
 
-/* Style the header */
+/* Style the bio header */
 .header {
-  background-image: linear-gradient(to bottom right, blue, orange);
-  padding: 30px;
+background-color:#ddd;
+  padding: 20px;
   text-align: center;
-  font-size: 35px;
+  
 }
 
 /* Create three equal columns that floats next to each other */

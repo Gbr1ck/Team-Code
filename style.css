@@ -11,10 +11,17 @@ background-image: linear-gradient(to bottom right, blue, orange);
 
 /* Style the bio header */
 .header {
-background-color:#ddd;
+background-color:#bbb;
   padding: 20px;
   text-align: center;
-  
+
+}
+/* gabe bio header */
+.gbheader {
+background-color:#FECC8A;
+  padding: 20px;
+  text-align: center;
+
 }
 /* Add a light gray background color to the top navigation */
 .topnav {
@@ -24,7 +31,7 @@ background-color:#ddd;
 	top: 0px;
 	left: 0px;
     width: 100%;
-	
+
 }
 
 /* Style the links inside the navigation bar */
@@ -35,7 +42,7 @@ background-color:#ddd;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
-	
+
 }
 
 /* style hovered over links */
@@ -48,9 +55,9 @@ background-color:#ddd;
 .topnav a.active {
   background-color: #777;
 	color:white;
-	
-	
-	
+
+
+
 }
 
 /* Create three equal columns that floats next to each other */

@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Add Location</ion-title>
+    <ion-title>Add Your Car's Location</ion-title>
     <ion-buttons slot="start">
   <ion-back-button defaultHref="/login"></ion-back-button>
 </ion-buttons>
@@ -24,7 +24,7 @@
   <img src="../assets/img/BuddyCameraL.gif">
   <br>
   <ion-card>
-    <ion-button size="large" (click)="openCamera()">Take Picture</ion-button>
+    <ion-button size="large" (click)="openCamera()">Take a Picture of Your Car</ion-button>
     <ion-card-content>
       Picture:
       <img [src]="base64Image" *ngIf="base64Image"/>
@@ -32,6 +32,6 @@
   </ion-card>
 
   <ion-button size="large" (click)="addLocation(location)" routerLink="../home"
-  routerDirection="forward">Add Location and Content</ion-button>
+  routerDirection="forward">Add Car's Location and Content</ion-button>
 
 </ion-content>
